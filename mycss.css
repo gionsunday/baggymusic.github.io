@@ -1,0 +1,117 @@
+body {color:white;
+	background-image:linear-gradient( to right, aqua,black,aquamarine, black, aquamarine, black, aqua);
+	background-size:auto;
+	font-family:Arial;  
+     	
+}
+#container{
+	border:2px solid gray;
+	border-radius:5px;
+}
+
+#navi{
+	display:flex;
+	justify-content:flex-start;
+
+}
+#post{
+	display:flex;
+	justify-content:center;
+	flex-direction:;
+	flex-wrap:wrap;
+}
+
+#navi a:hover{
+	background-color:white;
+	color:black;
+}
+
+#about:hover{
+	background-color:white;
+	color:black;
+}
+
+#navi a{
+	border:2px solid white;
+	display:flex;
+	float:center;
+	text-decoration:none;
+	font-size:20px;
+	background-color:royalblue;
+	color:white;
+	text-align:center;
+	margin:5px;
+	padding:4px;
+	width:100px;
+	border-radius:9px;
+}
+
+
+ul li ul li{
+	display:none;
+}
+
+ul li:hover ul li{
+	display:block;
+	color:white;
+}
+.items{
+	justify-content:space-around;
+	flex-wrap:wrap;
+
+	
+}
+
+.items a{ 
+    display:flex;
+    flex-direction:row;
+	flex-wrap:wrap;
+	text-decoration:none;
+	color:white;
+	font-size:25px;
+	text-shadow: red 3px 2px 1px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	justify-content:space-around
+}
+#covera{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;	
+}
+h4:hover{
+	color:azure;
+}
+button{
+	border:1px solid yellow;
+	background-color:green;
+	padding:7px;
+	display:flex;
+	justify-content:center;
+	border-radius:8px;
+	color:white;
+	width:100px
+}
+
+button:hover{
+	background-color:white;
+	opacity:.8;
+	color:black;
+}
+
+.wes{
+	border:0px solid red;
+    display:flex;
+	justify-content:space-around;
+	flex-direction:column;
+	float:center;
+	flex-wrap:wra;
+	width:500px;
+	margin:9px;
+}
+h1{
+	text-align:center
+}
+	
+	
